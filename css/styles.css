@@ -583,8 +583,8 @@ color: #434455;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+    height: 623px;
   background: #fcfcfc;
   box-shadow: 
   0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -634,6 +634,7 @@ color: #434455;
 }
  
 .modal-text {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
