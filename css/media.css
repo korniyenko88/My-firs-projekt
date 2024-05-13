@@ -1,0 +1,65 @@
+ @media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 16px;
+        
+      }
+
+      .header-nav {
+        height: 72px;
+      }
+
+      .nav-menu {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 40px;
+      }
+      .addres-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-menu-button {
+        display: none;
+      }
+      .address-link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+      }
+      .nav-logo {
+        margin-right: 120px;
+      }
+
+      .nav-link {
+        font-size: 16px;
+      }
+
+      .section-one {
+        width: 768px;
+        height: 436px;
+        padding-top: 112px;
+      }
+
+      .main-title {
+        max-width: 496px;
+        font-size: 56px;
+        margin-bottom: 36px;
+      }
+
+      .button {
+        margin-bottom: 40px;
+        padding: 16px 32px;
+      }
+
+      .section-one-item {
+       
+      }
+
+    }
+    
