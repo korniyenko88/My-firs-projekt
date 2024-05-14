@@ -144,16 +144,26 @@ ul {
   padding: 0;
 }
 .section-one {
+ width: 320;
+ background-repeat: no-repeat;
+ background-position: center;
+    background-size: cover;
   padding: 72px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
   rgba(46, 47, 66, 0.7)), 
-  url(../images/office.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  url(../images/officemobile.jpg);
+  
+ 
   
 
+}
+
+@media (min-resolution: 192dpi) {
+  .section-one {
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), url('../images/office@2x.jpg');
+  }
+  
 }
 
 .button:focus {
@@ -844,7 +854,7 @@ margin: 0 auto;
   
   .modal-mobile {
     width: 320px;
-  height: 640px;
+  height: 100%;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background: #fff;
   position: absolute;
@@ -856,7 +866,8 @@ margin: 0 auto;
   transition: opacity 250ms ease-in-out;
     /* opacity: 0; */
     /* pointer-events: none; */
-    height: 100%;
+    
+    z-index: 99999999;
   }
   
   .nav-mobile-menu {
