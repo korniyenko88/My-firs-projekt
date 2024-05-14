@@ -87,8 +87,43 @@
         justify-items: center;
     }
 
-  
+ .bottom-logo {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 92px;
+ }
+ .bottom-text { 
+  width: 264px;
+ }
+ .bottom-icon-list {
+  width: 208px;
+ }
+ .icon-text {
+  text-align: start;
+ }
+ 
+.bottom-grid {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px 24px;
+}
 
+.form-footer {
+  margin-left: 92px;
+}
+
+.form-label {
+  text-align: start;
+}
+
+.subscribe-form {
+  flex-direction: row;
+}
+
+.subscribe-item {
+  width: 264px;
+}
 
 }
 
