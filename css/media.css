@@ -217,7 +217,7 @@ letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
   flex-direction: row;
-margin: 0 156px;
+
 
 }
 .title-list{
@@ -254,12 +254,33 @@ color: #434455;
   grid-gap: 40px 0;
         justify-items: center;
 }
-
-
+ 
 
 
 
 }
+
+
+@media screen and (min-width: 1158px) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+  .form-footer {
+    margin-left: 80px;
+}
+.bottom-desctop {
+  display: flex;
+}
+
+
+.bottom-logo {
+  margin: 0 120px 0 0;
+
+}
+
+
+}
+
+
+
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .section-one {
@@ -269,7 +290,7 @@ color: #434455;
     background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), url('../images/officedesctop1@2x.jpg');
   }
+ 
 
-    
-    
+ 
 }
